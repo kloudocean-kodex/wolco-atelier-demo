@@ -309,6 +309,7 @@ for (const button of $$("[data-filter]"))
   });
 function updateSelections() {
   $("#saved-count").textContent = state.saved.size;
+  $("#saved-noun").textContent = state.saved.size === 1 ? "study" : "studies";
   for (const button of $$("[data-save]")) {
     const saved = state.saved.has(button.dataset.save);
     button.setAttribute("aria-pressed", String(saved));
