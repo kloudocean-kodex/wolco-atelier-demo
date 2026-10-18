@@ -816,10 +816,10 @@ div {
   transition: filter 0.5s;
 }
 .palette-panel[data-palette="earth"] > figure > img {
-  filter: sepia(0.12) brightness(0.87);
+  filter: none;
 }
 .palette-panel[data-palette="shadow"] > figure > img {
-  filter: brightness(0.67) saturate(0.6);
+  filter: none;
 }
 .palette-panel figcaption {
   position: absolute;
@@ -928,6 +928,14 @@ div {
 .swatch-blackened-bronze {
   background: linear-gradient(100deg, #4a4137, #7a6851, #494135);
 }
+.swatch-mineral-stone { background: #d5c5ad; }
+.swatch-cashmere { background: #cbbca7; }
+.swatch-timber { background: repeating-linear-gradient(90deg, #a6815b 0px, #a6815b 3px, #b99a73 5px, #a6815b 7px); }
+.swatch-warm-metal { background: linear-gradient(100deg, #82704c, #bca77b, #8b7854); }
+.swatch-garnet { background: #6e241e; }
+.swatch-warm-stone { background: #b4a18a; }
+.swatch-aged-metal { background: linear-gradient(100deg, #584630, #89704c, #5e4b32); }
+.swatch-dark-metal { background: #373731; }
 .palette-detail .text-link {
   font-size: 11px;
 }

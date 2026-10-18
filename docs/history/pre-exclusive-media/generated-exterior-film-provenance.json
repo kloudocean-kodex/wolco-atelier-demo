@@ -11,7 +11,7 @@
       1280,
       720
     ],
-    "fps": 24.0,
+    "fps": 24,
     "decoded_frames": 240,
     "has_audio": true,
     "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720, 5106 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
@@ -20,12 +20,12 @@
   },
   "output_verification": {
     "full_decode_ok": true,
-    "duration_seconds": 10.0,
+    "duration_seconds": 10,
     "dimensions": [
       1280,
       720
     ],
-    "fps": 24.0,
+    "fps": 24,
     "decoded_frames": 240,
     "has_audio": false,
     "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2930 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
@@ -46,11 +46,11 @@
   "visual_review": "Four representative frames at0/3.33/6.67/9.96s plus20 frames at2fps reviewed. Continuous lateral camera movement creates changing foreground/background parallax. Facade columns, mullions, steps and main roofline remain coherent in sampled frames; foliage shifts naturally. No people/text appear. No visible model mark apparent in samples; full source frame retained. Parent live-playback review remains a separate site gate.",
   "source_prompt": null,
   "encoding_command": [
-    "C:\\Users\\gawar\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "[private archive]/ffmpeg-win-x86_64-v7.1.exe",
     "-hide_banner",
     "-y",
     "-i",
-    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\originals\\video\\generated-exterior-film-source.mp4",
+    "[private archive]/generated-exterior-film-source.mp4",
     "-map",
     "0:v:0",
     "-an",
@@ -72,7 +72,7 @@
     "+faststart",
     "-threads",
     "4",
-    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\generated-exterior-film.mp4"
+    "[private archive]/generated-exterior-film.mp4"
   ],
   "downloaded_source_sha256_matches_retained": true,
   "additional_contact_sheet": "qa/generated-exterior-film-20frames.png"

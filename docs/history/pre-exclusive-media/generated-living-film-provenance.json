@@ -11,7 +11,7 @@
       1280,
       720
     ],
-    "fps": 24.0,
+    "fps": 24,
     "decoded_frames": 240,
     "has_audio": true,
     "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720, 4350 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
@@ -21,12 +21,12 @@
   },
   "output_verification": {
     "full_decode_ok": true,
-    "duration_seconds": 10.0,
+    "duration_seconds": 10,
     "dimensions": [
       1280,
       720
     ],
-    "fps": 24.0,
+    "fps": 24,
     "decoded_frames": 240,
     "has_audio": false,
     "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2730 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
@@ -47,7 +47,7 @@
   "visual_review": "Pending parent/source-specific visual inspection",
   "source_prompt": "Create a genuine 10-second cinematic video in landscape 16:9 from the attached living-room architectural visualisation. This is the closing Dwell chapter of a warm quiet-luxury home film. Preserve the exact room geometry, window framing, sofa, armchairs, table, rug, joinery and garden composition. One continuous very slow 15-centimetre camera dolly forward with subtle actual depth parallax, towards the light-filled garden. Only the garden foliage outside moves delicately in a soft breeze; a sheer curtain may move imperceptibly if present in the reference. Keep all furniture and walls stationary, straight and coherent. Warm afternoon side light, ivory plaster, pale oak, bronze accents, linen and natural stone, soft shadows and restrained editorial realism. Match the previous exterior, material and kitchen chapters in colour and unhurried rhythm. No people, hands, added objects, new text or logos, cuts, dissolves, artificial slideshow zoom, morphing geometry, music, sound or audio. A silent fictional architectural inspiration film for the WOLCO website story.\n",
   "encoding_command": [
-    "C:\\Users\\gawar\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "[private archive]/ffmpeg-win-x86_64-v7.1.exe",
     "-hide_banner",
     "-y",
     "-i",

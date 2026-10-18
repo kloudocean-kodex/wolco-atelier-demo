@@ -43,7 +43,7 @@
       1280,
       720
     ],
-    "fps": 24.0,
+    "fps": 24,
     "decoded_frames": 922,
     "has_audio": false,
     "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2518 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
@@ -55,7 +55,7 @@
   "contact_sheet": "qa\\generated-architectural-journey-contact-sheet.png",
   "visual_review": {
     "reviewed_by": "Release owner",
-    "sequence": "Arrival \u2192 Touch \u2192 Gather \u2192 Dwell",
+    "sequence": "Arrival → Touch → Gather → Dwell",
     "evidence": [
       "qa/generated-architectural-journey-contact-sheet.png",
       "qa/generated-architectural-journey-transitions.png"
@@ -63,7 +63,7 @@
     "result": "Twelve sequence frames and nine boundary samples inspected. Coherent warm palette, rigid architectural/material geometry, continuous genuine generated motion, smooth dissolves with no black gap. Full frames and visible source marks retained."
   },
   "encoding_command": [
-    "C:\\Users\\gawar\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "[private archive]/ffmpeg-win-x86_64-v7.1.exe",
     "-hide_banner",
     "-y",
     "-filter_complex_threads",

@@ -1,6 +1,8 @@
 # Atelier source audit and refinement
 
-Source reviewed: `C:\Users\gawar\Downloads\wolco_homes_rebirth_live_preview (2).html`. The source file remains untouched. This new implementation is independently deployable.
+Historical baseline report. Its film descriptions, asset counts and earlier validation apply to the pre-exclusive-media release. Current asset classifications and hashes are in `CURRENT_MEDIA.md` and `exclusive-media-manifest.json`; new local checks are recorded separately.
+
+Source reviewed: the supplied `wolco_homes_rebirth_live_preview (2).html`, retained unchanged in the private source archive. This implementation is independently deployable.
 
 | Source finding | Refinement |
 | --- | --- |

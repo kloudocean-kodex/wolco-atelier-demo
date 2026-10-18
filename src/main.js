@@ -9,13 +9,13 @@ const studies = {
     category: "ARCHITECTURE",
     image: "exterior",
     description:
-      "An invitation to slow down before you step inside. Layered stone, deep shade and a planted edge suggest an arrival that feels both sheltered and open.",
+      "Warm brick, a charcoal roof and a timber entrance frame a planted courtyard. This concept explores a sheltered arrival with a clear connection to the garden.",
     ideas: [
       "A clear transition from street to private space.",
       "A sheltered entry with a place to pause.",
       "Planting that softens the meeting of architecture and landscape.",
     ],
-    related: ["exterior", "materials"],
+    related: ["exterior", "alfresco"],
   },
   stillness: {
     title: "The Stillness",
@@ -23,13 +23,13 @@ const studies = {
     category: "INTERIORS",
     image: "living",
     description:
-      "A room with less competing for your attention. Natural light, low furniture and a garden outlook create an idea of living that is generous without feeling formal.",
+      "A gabled timber ceiling, brick hearth and garnet-toned sofa give this courtyard living concept its character. Bare glazing connects the shared room to native planting outside.",
     ideas: [
       "A quieter corner for reading or conversation.",
       "Windows that frame a view as well as admit light.",
       "A balance of shared living and personal retreat.",
     ],
-    related: ["living", "materials"],
+    related: ["living", "retreat"],
   },
   gathering: {
     title: "The Gathering",
@@ -37,7 +37,7 @@ const studies = {
     category: "INTERIORS",
     image: "kitchen",
     description:
-      "The kitchen as a place to spend time, rather than simply pass through. Warm timber and pale stone provide a backdrop for cooking, conversation and all the ordinary moments around the table.",
+      "A squared stone island, timber cabinetry and charcoal details shape a kitchen opening towards the courtyard. The concept puts preparation, gathering and the garden in conversation.",
     ideas: [
       "Where people naturally gather while someone is cooking.",
       "Storage that suits the way you use your kitchen.",
@@ -51,7 +51,7 @@ const studies = {
     category: "DETAILS",
     image: "materials",
     description:
-      "A small collection of textures with a shared sense of warmth. The interest comes from their differences — the grain of timber, the softness of linen, a glint of metal against stone.",
+      "A close look at the junction between brick, warm stone and timber joinery. The interest comes from the way these solid materials meet beside a garden-facing window.",
     ideas: [
       "Materials that feel comfortable to touch and live with.",
       "A small, connected palette rather than competing finishes.",
@@ -62,20 +62,36 @@ const studies = {
 };
 const images = {
   exterior: {
-    src: "/media/generated-exterior-dusk.webp",
-    alt: "Generated architectural visualisation: warm stone Melbourne home with timber entry, deep shadows and a planted garden at dusk",
+    src: "/media/wolco-courtyard-arrival.webp",
+    alt: "WOLCO concept visualisation: brick courtyard home with a charcoal roof, timber entrance and native garden",
   },
   living: {
-    src: "/media/generated-living.webp",
-    alt: "Generated interior visualisation: a calm living room with curved furniture, warm natural textures and a garden outlook",
+    src: "/media/wolco-courtyard-dwell.webp",
+    alt: "WOLCO concept visualisation: gabled timber living room with a brick hearth, garnet sofa and planted courtyard outlook",
   },
   kitchen: {
-    src: "/media/generated-kitchen.webp",
-    alt: "Generated interior visualisation: pale stone kitchen island, natural oak joinery and bronze details in warm light",
+    src: "/media/wolco-courtyard-gather.webp",
+    alt: "WOLCO concept visualisation: squared stone island, timber kitchen cabinetry and charcoal details facing a brick courtyard",
   },
   materials: {
-    src: "/media/generated-materials.webp",
-    alt: "Generated material visualisation: limestone, oak, linen and bronze samples composed in raking sunlight",
+    src: "/media/wolco-courtyard-touch.webp",
+    alt: "WOLCO concept visualisation: the junction of brick, warm stone and timber joinery beside bare courtyard glazing",
+  },
+  cashmere: {
+    src: "/media/wolco-wow-cashmere.webp",
+    alt: "WOLCO concept selection study: honed neutral stone, cashmere-painted cabinetry, natural timber and rigid finish samples",
+  },
+  espresso: {
+    src: "/media/wolco-wow-espresso.webp",
+    alt: "WOLCO concept selection study: walnut joinery, garnet cabinetry, warm mineral stone and aged-metal details",
+  },
+  retreat: {
+    src: "/media/wolco-courtyard-retreat.webp",
+    alt: "WOLCO concept bedroom: timber bed and joinery, brick wall and bare glazing towards a private planted courtyard",
+  },
+  alfresco: {
+    src: "/media/wolco-courtyard-alfresco.webp",
+    alt: "WOLCO concept outdoor living: timber dining table beneath a supported brick and timber shelter beside a planted courtyard",
   },
 };
 const palettes = {
@@ -83,39 +99,39 @@ const palettes = {
     name: "Sand & stone",
     number: "01",
     description:
-      "Chalky limestone, pale oak and natural linen. A quiet, light-filled foundation with warmth beneath the surface.",
-    image: "materials",
+      "Honed neutral stone, cashmere-painted cabinetry and natural timber. A soft mineral palette shown through a concept selection vignette.",
+    image: "cashmere",
     swatches: [
-      ["limestone", "Limestone"],
-      ["oak", "Pale oak"],
-      ["linen", "Linen"],
-      ["bronze", "Bronze"],
+      ["mineral-stone", "Honed stone"],
+      ["cashmere", "Cashmere"],
+      ["timber", "Natural timber"],
+      ["warm-metal", "Warm metal"],
     ],
   },
   earth: {
     name: "Earth & ember",
     number: "02",
     description:
-      "Clay, walnut and soft sand, with a touch of copper. A grounded palette that finds richness in warm, earthy contrasts.",
-    image: "kitchen",
+      "Walnut, a solid garnet panel and warm mineral stone, with aged-metal accents. A richer concept scheme with its materials visible in daylight.",
+    image: "espresso",
     swatches: [
-      ["clay", "Clay"],
       ["walnut", "Walnut"],
-      ["sand", "Soft sand"],
-      ["copper", "Copper"],
+      ["garnet", "Garnet"],
+      ["warm-stone", "Mineral stone"],
+      ["aged-metal", "Aged metal"],
     ],
   },
   shadow: {
     name: "Oak & shadow",
     number: "03",
     description:
-      "Oiled oak and charcoal against a chalky neutral. A deeper material conversation, balanced by pockets of light and a softer touch.",
-    image: "living",
+      "Natural timber, pale stone and charcoal details, opening towards brick and native planting. This kitchen concept explores the balance between warmth and shadow.",
+    image: "kitchen",
     swatches: [
+      ["timber", "Timber"],
       ["charcoal", "Charcoal"],
-      ["oiled-oak", "Oiled oak"],
-      ["chalk", "Chalk"],
-      ["blackened-bronze", "Dark bronze"],
+      ["warm-stone", "Pale stone"],
+      ["dark-metal", "Dark metal"],
     ],
   },
 };
@@ -640,13 +656,13 @@ for (const button of $$("[data-open-film]"))
   button.addEventListener("click", () => {
     const video = $("#study-video");
     if (!video.poster)
-      video.poster = "/media/generated-architectural-journey-poster.webp";
+      video.poster = "/media/wolco-project-journey-v2-poster.webp";
     if (!video.getAttribute("src"))
-      video.src = "/media/generated-architectural-journey.mp4";
+      video.src = "/media/wolco-project-journey-v2.mp4";
     else if (video.error) video.load();
     $("#film-error").hidden = true;
     $("#film-status").textContent =
-      "Arrival → Touch → Gather → Dwell. Generated architectural visualisations. No audio.";
+      "Supplied WOLCO project footage. Silent web edit.";
     openDialog($("#film-dialog"));
   });
 $("#study-video").addEventListener("error", () => {
@@ -753,7 +769,7 @@ const legalContent = {
     title: "An exploration of home.",
     paragraphs: [
       "Atelier is a design demonstration for WOLCO Homes. It explores a warm, material-led direction through architectural imagery, interactive studies and a personal design brief. It is not a finished production service or a property sales catalogue.",
-      "The Arrival, The Stillness, The Gathering, The Tactile and the architectural film use generated concept imagery. They do not show completed WOLCO projects, actual studio interiors, approved designs, available lots or confirmed inclusions. The Cookes Road story uses supplied WOLCO project photographs.",
+      "The Arrival, The Stillness, The Gathering and The Tactile use generated concept imagery. They do not show completed WOLCO projects, actual studio interiors, approved designs, available lots or confirmed inclusions. The Cookes Road story uses supplied WOLCO project photographs. The film is a separate silent edit of supplied WOLCO project footage.",
       "The space diagram is illustrative and has no scale. Material palettes suggest colours and textures; they do not specify brands, products, prices or availability. Project feasibility, scope, costs, timing and approvals require an individual discussion.",
       "The original WOLCO Homes logo is retained. Fonts and media are hosted with this demonstration. No enquiry is sent automatically; the brief can be downloaded or opened as a draft in your email app.",
     ],

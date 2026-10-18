@@ -1,0 +1,243 @@
+{
+  "observedAt": "2026-10-18T19:24:56.468Z",
+  "scope": "Local build and static media dependency verification; native browser layout, focus and playback require separate live review.",
+  "build": "passed",
+  "staticReferences": "passed",
+  "responsiveDerivativeFamilies": 8,
+  "supersededPublicMedia": 0,
+  "filmRoutes": [
+    "/media/wolco-project-journey-v2.mp4"
+  ],
+  "videoRangeScenarios": 18,
+  "videoRangeResult": "passed",
+  "interactionChecks": "Existing Atelier reference verifier passed: 32 assets, 23 anchors, 74 IDs and 5 dialogs.",
+  "interactionResult": "passed",
+  "sourceSyntax": "passed",
+  "publicFiles": [
+    {
+      "file": "public/brand/wolco-icon.png",
+      "bytes": 25572,
+      "sha256": "a469aa0e4aa2ff39cec13dedbbae5a6d243aa59db05adbcdfece3948e4d66c77"
+    },
+    {
+      "file": "public/brand/wolco-logo.webp",
+      "bytes": 8926,
+      "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15"
+    },
+    {
+      "file": "public/fonts/hanken-grotesk.woff2",
+      "bytes": 34704,
+      "sha256": "e9201eddf1d41d0b62253295d869ce3cf65768f7102b797f02c7f8c876b4a9d5"
+    },
+    {
+      "file": "public/fonts/instrument-serif-italic.woff2",
+      "bytes": 28096,
+      "sha256": "4f7aacc18d491dea8778bbc591db87b9455625899ed5f913957e7fd82604c294"
+    },
+    {
+      "file": "public/fonts/instrument-serif-regular.woff2",
+      "bytes": 27440,
+      "sha256": "ca21b99b0d6b88a0dc34cebfe48104611e5c7f8f92746bed26c37aa470174322"
+    },
+    {
+      "file": "public/fonts/LICENSE-HankenGrotesk.txt",
+      "bytes": 4402,
+      "sha256": "e02ccb89a86839b22feff7872ff5cc355cc0f58318d29eee20e2cf83a612f16d"
+    },
+    {
+      "file": "public/fonts/LICENSE-InstrumentSerif.txt",
+      "bytes": 4404,
+      "sha256": "b6b2292aa580937fb63796878d65a027a27f8c3db2d97601d0c34d9031f4ca17"
+    },
+    {
+      "file": "public/media/cookes-garden-1200.webp",
+      "bytes": 161304,
+      "sha256": "a75cfb46cb6ae18a2f252161da01df97d5cbb0af745960be42b5322b98a5de0d"
+    },
+    {
+      "file": "public/media/cookes-garden-1800.webp",
+      "bytes": 343178,
+      "sha256": "40284af9ea2446f68c1a23d0b12dafa958f8ade8ce3266fe85b72a5e6e976344"
+    },
+    {
+      "file": "public/media/cookes-garden-800.webp",
+      "bytes": 72356,
+      "sha256": "fc54d989923a4928d9805ea71eb194d3691e75e45d41ac337f2150d5d6eebca6"
+    },
+    {
+      "file": "public/media/cookes-kitchen-1200.webp",
+      "bytes": 33438,
+      "sha256": "2fc34f185c9f5e2bf1b4edcc4f818c8867cdfbc7ead9c67a7dde039ffd437e1f"
+    },
+    {
+      "file": "public/media/cookes-kitchen-1800.webp",
+      "bytes": 62206,
+      "sha256": "86637449919273d668a7e83d5eecdddc7a071273cd7fe74c162794d3096abb55"
+    },
+    {
+      "file": "public/media/cookes-kitchen-800.webp",
+      "bytes": 17196,
+      "sha256": "1dee233b9fe650336e77f535b7a6db7e8b0841ff59138d526d804fe2fec82e55"
+    },
+    {
+      "file": "public/media/cookes-living-1200.webp",
+      "bytes": 36466,
+      "sha256": "d2252749824c34f2797f32f0ac42364408483b0016aeb5711d3a5932f0ac0726"
+    },
+    {
+      "file": "public/media/cookes-living-1800.webp",
+      "bytes": 66896,
+      "sha256": "2c63d14df90789efb928607fef99ac375e6b384e21358ab236ff0f0ca490a09d"
+    },
+    {
+      "file": "public/media/cookes-living-800.webp",
+      "bytes": 18512,
+      "sha256": "265bbcfe9073ab7caabef3a7fc2a2362274dcd0c07fbaaeb986bdb702a6a7bef"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco-640.webp",
+      "bytes": 62472,
+      "sha256": "ada2df3896ac4cbe8bed8c05c02f2e86ecedfda0651c40f8fc851795ab813119"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco-960.webp",
+      "bytes": 130620,
+      "sha256": "2a6aedbff07835cb6f56aa586ea9f75aeba102590de23f6ac0ad41a1972d65a3"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco.webp",
+      "bytes": 299832,
+      "sha256": "453b88ef08d613cfa693c135718c06c35dfbd7b7509058e4b1333345ab49a581"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival-640.webp",
+      "bytes": 70930,
+      "sha256": "753a363a448b98a56bdf729420c8aee9fa0d909507d3adfadd2fad770bba553f"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival-960.webp",
+      "bytes": 154730,
+      "sha256": "9b1ad388a0e5c98ba88580722688c3caf756983261ef3f5092b72519847fbf05"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival.webp",
+      "bytes": 370638,
+      "sha256": "ad1a844d36e3b71db27c9a81331c0bb6ea78d4cb108ecb63c2adbc093452e4db"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell-640.webp",
+      "bytes": 58792,
+      "sha256": "b318438e8aeeebc24d5f8d962a6f2c6b94c32df2e1acd826ec42db41ecd9b973"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell-960.webp",
+      "bytes": 125990,
+      "sha256": "9ccc38cefa75127756425e6c44826d4b67a0d983083ee69050e38065b85b8a9f"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell.webp",
+      "bytes": 302522,
+      "sha256": "e05fff65ffbe3dbbf938764618e7badc4829b424c0a85f06e564628d596c6eac"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather-640.webp",
+      "bytes": 55764,
+      "sha256": "c93641de7444c193913c0019e6b94b3e574b6296728926f28aca88052725274e"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather-960.webp",
+      "bytes": 116676,
+      "sha256": "2445d0ee5a1dc7d0850c365a651e37472420b3d8d18806e074248c5b98e43cb4"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather.webp",
+      "bytes": 265668,
+      "sha256": "5f19a96549e3f8726cf1d6c16c43a06b55fdd25daa9f33cb8b853af5f053e404"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat-640.webp",
+      "bytes": 62850,
+      "sha256": "73885339e2306febbfc9f531c536e91d1e852fc57a1963338bd992fbfcab6e0c"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat-960.webp",
+      "bytes": 137630,
+      "sha256": "3507494660807710dcd4b6a0321f42d7b469ed4d1b2e13db2c30814b38dba60a"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat.webp",
+      "bytes": 315584,
+      "sha256": "42dca7cea8f04e970c45714027f5f971a7d1088a5d31d90c86bd70f23c0bf8b8"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch-640.webp",
+      "bytes": 46278,
+      "sha256": "2200733ad0f087dae7e31faacad38b349449f923a0a8ad1131a1cf7ccecc26de"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch-960.webp",
+      "bytes": 87450,
+      "sha256": "d71f3df8f0716059f421dabf1c580686a506ccacc45469e9c58456641d7a6556"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch.webp",
+      "bytes": 177114,
+      "sha256": "5ca8591f3e8f5b59d2e158460658bfd14b8937c34f1ee90d687725713853f1c7"
+    },
+    {
+      "file": "public/media/wolco-project-journey-v2-poster.webp",
+      "bytes": 129560,
+      "sha256": "35a70110d8f3ab419915bd396ca9682fe298cee5862099d51f049934c5c1722a"
+    },
+    {
+      "file": "public/media/wolco-project-journey-v2.mp4",
+      "bytes": 5290007,
+      "sha256": "660ac641ac7c8c292533118e92186b1b556ef02c9ebfdb4781ae09b43640f3c3"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere-640.webp",
+      "bytes": 35390,
+      "sha256": "906c7f8f208583d58c310198bb43206e484f23b57a21d86be0c43443900bf9ba"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere-960.webp",
+      "bytes": 70574,
+      "sha256": "788f384bf70736a203d1f33b022966f6678737c4f635c495741079ca027ce342"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere.webp",
+      "bytes": 152444,
+      "sha256": "28999ed72597556eb96758985bc7d9a41e7cd6304b7912375883ee448f0f9389"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso-640.webp",
+      "bytes": 41750,
+      "sha256": "deca2486536c65ae55e8dc3c41eff079004fa8c552edb5a16dbe81c2b318a377"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso-960.webp",
+      "bytes": 86240,
+      "sha256": "f4303b7b0d6fb9a5bedc9757ffe0eed8ae05724467d00fc8e695477ca7e5c872"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso.webp",
+      "bytes": 188218,
+      "sha256": "9c93b0a0100169fb82cb6c1f01dd21675bba42f9c89964ba7743f21014710a09"
+    },
+    {
+      "file": "public/robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "file": "public/_headers",
+      "bytes": 540,
+      "sha256": "e1193b4b2a2a361c67865c8ce0294ca11e18fa87e9ca5b3a123a4ba2069ad134"
+    },
+    {
+      "file": "public/_routes.json",
+      "bytes": 98,
+      "sha256": "679ec14a3962798ab53701f3be22cf47d5dfc608efe2add003ff56cf55cc667e"
+    }
+  ]
+}

@@ -38,7 +38,7 @@ The shipped `robots.txt`, HTML meta tags and Cloudflare response headers deliber
 - Four interactive spaces and independent saved priorities.
 - A three-photo Cookes Road project gallery.
 - Five native expandable journey sections and five frequently asked questions.
-- An explicitly triggered, silent 38.42-second architectural film edited from four genuine generated clips, with native playback controls, deferred source loading and pause on modal close.
+- An explicitly triggered, silent 21.6-second architectural film edited from client-supplied WOLCO project footage, with native playback controls, deferred source loading and pause on modal close.
 - A validated personal brief, editable review, plain-text download and a manually sent email draft. Nothing is represented as automatically submitted.
 - Privacy and demonstration-information dialogs, Escape dismissal, native focus containment and focus return.
 
@@ -46,9 +46,9 @@ Personal details and selections stay in page memory and clear on reload. This de
 
 ## Media and rights
 
-The original red/yellow WOLCO logo is unchanged. Four new generated visualisations and the architectural film are labelled as concepts. Cookes Road uses three supplied WOLCO project photos. Font OFL licences ship in `public/fonts`.
+The original red/yellow WOLCO logo is unchanged. Eight WOLCO-specific generated architectural and selection studies are labelled as concepts. Cookes Road uses three supplied WOLCO project photos. The film is a separate edit of genuine supplied WOLCO project footage. Font OFL licences ship in `public/fonts`.
 
-See `docs/AUDIT.md`, `docs/PROVENANCE.md` and the machine-readable source manifests. Do not describe generated studies as approved designs, completed WOLCO homes, studio interiors, confirmed products, buildable plans, quotations or guaranteed outcomes.
+See `docs/CURRENT_MEDIA.md` and `docs/exclusive-media-manifest.json` for the current media classifications and hashes. Earlier audit evidence describes its recorded baseline. Do not describe generated studies as approved designs, completed WOLCO homes, studio interiors, confirmed products, buildable plans, quotations or guaranteed outcomes.
 
 ## Verification scope
 

@@ -28,7 +28,7 @@
       1280,
       720
     ],
-    "fps": 24.0,
+    "fps": 24,
     "decoded_frames": 466,
     "has_audio": false,
     "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2376 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
@@ -40,15 +40,15 @@
   "contact_sheet": "qa\\generated-architectural-story-contact-sheet.png",
   "visual_review": "12-frame sequence contact sheet and five transition frames at9.25/9.5/9.75/10/10.25seconds inspected. Clean exterior-to-kitchen dissolve, no black gap, coherent warm stone/oak/bronze palette. Main geometry remains coherent in sampled frames. Full source frames retained; visible kitchen Gemini sparkle mark remains. Finite genuine video, without animated stills. Parent desktop/mobile browser playback review remains separate.",
   "encoding_command": [
-    "C:\\Users\\gawar\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "[private archive]/ffmpeg-win-x86_64-v7.1.exe",
     "-hide_banner",
     "-y",
     "-filter_complex_threads",
     "2",
     "-i",
-    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\originals\\video\\generated-exterior-film-source.mp4",
+    "[private archive]/generated-exterior-film-source.mp4",
     "-i",
-    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\originals\\video\\generated-kitchen-film-source.mp4",
+    "[private archive]/generated-kitchen-film-source.mp4",
     "-filter_complex",
     "[0:v]scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,format=yuv420p,setpts=PTS-STARTPTS,fps=24,settb=AVTB[v0];[1:v]scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,format=yuv420p,setpts=PTS-STARTPTS,fps=24,settb=AVTB[v1];[v0][v1]xfade=transition=fade:duration=0.5:offset=9.500000,fps=24,settb=AVTB[edit1]",
     "-map",
@@ -70,7 +70,7 @@
     "+faststart",
     "-threads",
     "4",
-    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\generated-architectural-story.mp4"
+    "[private archive]/generated-architectural-story.mp4"
   ],
   "story": [
     "Arrival: dusk exterior",

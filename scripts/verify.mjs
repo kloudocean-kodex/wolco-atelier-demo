@@ -36,7 +36,7 @@ for (const file of files) {
   }
 }
 for (const src of [
-  ...js.matchAll(/src:\s*['"](\/media\/generated-[^'"]+\.webp)['"]/g),
+  ...js.matchAll(/src:\s*['"](\/media\/wolco-[^'"]+\.webp)['"]/g),
 ].map((match) => match[1]))
   for (const size of ["640", "960"]) {
     try {
@@ -63,7 +63,7 @@ for (const match of html.matchAll(/<img\b([^>]+)>/g))
   )
     issues.push("Image without alt/dimensions");
 const film = await stat(
-  path.join(root, "public/media/generated-architectural-journey.mp4"),
+  path.join(root, "public/media/wolco-project-journey-v2.mp4"),
 );
 const result = {
   passed: issues.length === 0,
