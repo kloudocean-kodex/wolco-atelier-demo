@@ -22,7 +22,9 @@ The local repository is initialized on `main` with `origin` set to `https://gith
 
 `cloudflare-project-setup.json` contains the sanitized create/readback evidence. API credentials came from Wrangler's supported `auth token --json` command, stayed in the setup process's memory and were not written into this repository or printed. No payment plan, account-wide permission or other Cloudflare project was changed.
 
-The project uses no secrets, bindings, database or backend submission service. Its existing noindex and privacy behaviour remain part of the static build. The original WOLCO production domain and the separate Redline Pages configuration are outside this project setup.
+The project uses no secrets, custom storage bindings, database or backend submission service. Its film-delivery Function uses the built-in ASSETS binding and exact MP4 invocation routes; see VIDEO_DELIVERY.md for streaming, tests and Free-plan quotas. The noindex and privacy behaviour remain part of the static build. The original WOLCO production domain is separate.
+
+The source has subsequently been committed and published through the Git integration. The public demo is https://wolco-atelier-demo.pages.dev/. Exact final commit and deployed build evidence are recorded in the release audit.
 
 ## Publication preflight
 

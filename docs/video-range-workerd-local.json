@@ -1,0 +1,66 @@
+{
+  "observedAt": "2026-10-18T07:13:11.526Z",
+  "base": "http://127.0.0.1:3204/",
+  "head": {
+    "status": 200,
+    "bytes": "12104844",
+    "acceptRanges": "bytes"
+  },
+  "sha256": "abdd480d1e95f29087cb9e36f8a542bb8527fee3da34e2539b7c6abc79edd1bd",
+  "checks": [
+    {
+      "name": "Safari initial probe",
+      "status": 206,
+      "range": "bytes 0-1/12104844",
+      "bytes": 2,
+      "pass": true
+    },
+    {
+      "name": "prefix",
+      "status": 206,
+      "range": "bytes 0-1023/12104844",
+      "bytes": 1024,
+      "pass": true
+    },
+    {
+      "name": "middle",
+      "status": 206,
+      "range": "bytes 6291456-6292479/12104844",
+      "bytes": 1024,
+      "pass": true
+    },
+    {
+      "name": "last frame bytes",
+      "status": 206,
+      "range": "bytes 12103820-12104843/12104844",
+      "bytes": 1024,
+      "pass": true
+    },
+    {
+      "name": "suffix",
+      "status": 206,
+      "range": "bytes 12103820-12104843/12104844",
+      "bytes": 1024,
+      "pass": true
+    },
+    {
+      "name": "open ended",
+      "status": 206,
+      "range": "bytes 12104840-12104843/12104844",
+      "bytes": 4,
+      "pass": true
+    },
+    {
+      "name": "unsatisfiable",
+      "status": 416,
+      "range": "bytes */12104844",
+      "pass": true
+    },
+    {
+      "name": "changed validator returns complete representation",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "failures": []
+}

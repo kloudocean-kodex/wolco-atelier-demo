@@ -5,11 +5,16 @@
   "description": "An independent, static WOLCO Homes design demonstration.",
   "scripts": {
     "dev": "node scripts/serve.mjs",
+    "prebuild": "node scripts/prepare-video-manifest.mjs",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs dist",
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs",
+    "test:video": "node scripts/test-video-ranges.mjs"
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261018.1"
   }
 }

@@ -4,13 +4,14 @@ A warm editorial design demonstration for WOLCO Homes. This is an independent st
 
 ## Run locally
 
-Node.js 20 or newer is the only requirement. There are no npm dependencies and no third-party runtime requests.
+Node.js 20 or newer runs the static build. The website has no client runtime dependencies or third-party asset requests. Cloudflare's type definitions are a development dependency for the narrowly scoped film-delivery Function.
 
 ```sh
 npm run dev
 # http://localhost:4174
 
 npm run verify
+npm run test:video
 npm run build
 npm run preview
 ```

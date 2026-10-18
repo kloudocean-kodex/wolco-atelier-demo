@@ -27,6 +27,11 @@
       "sha256": "3d3001649024e76a5eea977c4ddeda3be9db9e394da825808d1819b0624b8bca"
     },
     {
+      "file": "public/_routes.json",
+      "bytes": 105,
+      "sha256": "019d057e5e1322065e4a10d442c22b69a57315a0d07a0f7c792faafa6a9b8d7b"
+    },
+    {
       "file": "public/brand/wolco-icon.png",
       "bytes": 25572,
       "sha256": "a469aa0e4aa2ff39cec13dedbbae5a6d243aa59db05adbcdfece3948e4d66c77"
