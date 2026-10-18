@@ -1,0 +1,87 @@
+{
+  "generation_status": "Downloaded completed source supplied by parent task",
+  "model_label": "Gemini web app Create video; onboarding displayed Gemini Omni",
+  "classification": "Fictional AI-generated architectural design visualisation",
+  "retained_source": "originals\\video\\generated-kitchen-film-source.mp4",
+  "web_output": "generated-kitchen-film.mp4",
+  "source_verification": {
+    "full_decode_ok": true,
+    "duration_seconds": 10.01,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "decoded_frames": 240,
+    "has_audio": true,
+    "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720, 2775 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "bytes": 3644866,
+    "sha256": "cd92781a1a49be3a61f320d0f3f02bd4e011d190e7e3b0b45fc3cfe584b80ac5",
+    "faststart": true
+  },
+  "output_verification": {
+    "full_decode_ok": true,
+    "duration_seconds": 10.0,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "decoded_frames": 240,
+    "has_audio": false,
+    "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1614 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "bytes": 2021657,
+    "sha256": "2fbf6c61e9b59f36010056d7875850ff3a5530e8d3067cf5dc87f7d00c085a8c",
+    "faststart": true
+  },
+  "processing": "H.264 encode, full-frame proportional scaling capped at1920x1080, audio removed for silent web playback, MP4 faststart. No cropping, inpainting, masking, frame interpolation, slideshow animation or watermark removal.",
+  "watermark_policy": "Any visible model watermark retained within full frame. Human visual review required.",
+  "poster": {
+    "file": "generated-kitchen-film-poster.webp",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "contact_sheet": "qa\\generated-kitchen-film-contact-sheet.png",
+  "visual_review": "Four large representative frames plus20 frames at2fps reviewed. Continuous subtle lateral/forward camera movement; island, tap, three stools, cabinetry and courtyard remain coherent in sampled frames; natural foliage and shadow movement. The model interprets the reference with wider framing rather than a pixel-identical opening. No people/text appear. Visible Gemini sparkle mark remains at lower right; complete source frame retained. Parent live-playback review remains separate.",
+  "source_prompt": "Create a genuine cinematic interior video using the newly attached kitchen image as the exact opening frame and visual reference. Landscape 16:9, 10 seconds, matching the warm quiet-luxury architectural exterior film above. Preserve the travertine island, natural oak grain, bronze tap, cabinetry, three stools, bowl, glazing and olive courtyard precisely, without redesign or morphing. One continuous extremely slow 15-centimetre dolly left with a subtle forward drift, giving true near/far parallax across the island and courtyard. Olive leaves and native grasses outside move gently in a light breeze; soft dappled leaf shadows drift naturally a few centimetres on the stone. Everything else stays physically stable, straight and still. Muted ivory, pale honey stone, oak and deep bronze; warm late-afternoon light, realistic optics and restrained architectural editorial cinematography. No people, hands, new objects, rendered text, logos, cuts, transitions, time lapse, slideshow zoom, focus pumping or soundtrack. No speech or music. Fictional architectural design visualisation for the same WOLCO website story.\n",
+  "encoding_command": [
+    "C:\\Users\\gawar\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-hide_banner",
+    "-y",
+    "-i",
+    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\originals\\video\\generated-kitchen-film-source.mp4",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-vf",
+    "scale=w='min(1920,iw)':h='min(1080,ih)':force_original_aspect_ratio=decrease:force_divisible_by=2,setsar=1",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "21",
+    "-profile:v",
+    "high",
+    "-pix_fmt",
+    "yuv420p",
+    "-fps_mode",
+    "passthrough",
+    "-movflags",
+    "+faststart",
+    "-threads",
+    "4",
+    "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-shared-assets\\generated-kitchen-film.mp4"
+  ],
+  "generation_date": "2026-10-18",
+  "requested_duration_seconds": 10,
+  "actual_video_duration_seconds": 10.0,
+  "reference_asset": {
+    "file": "generated-kitchen.webp",
+    "sha256": "7bb91115109638698c98547b4bc1f09fd65a7ec0368e50cc547dbb20a9c7e8d1"
+  },
+  "downloaded_source_sha256_matches_retained": true,
+  "additional_contact_sheet": "qa/generated-kitchen-film-20frames.png"
+}

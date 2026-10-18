@@ -1,0 +1,56 @@
+{
+  "cookes-kitchen": {
+    "alt": "Light-filled kitchen with timber-toned cabinetry at Cookes Road",
+    "width": 3360,
+    "height": 2240,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "source": "https://drive.google.com/file/d/16oTz7nR3i7Y6J6w1IuFkxqsojwfitLmy/view",
+    "classification": "CLIENT_SUPPLIED",
+    "crop": "Responsive object-fit only; no generative changes or watermark removal",
+    "pages": [
+      "/",
+      "/projects/cookes-road"
+    ]
+  },
+  "cookes-living": {
+    "alt": "Open living space and staircase at Cookes Road",
+    "width": 3360,
+    "height": 2240,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "source": "https://drive.google.com/file/d/1YuQKxWRZEyV3pN_uiM1mV5Of6V1h3fUs/view",
+    "classification": "CLIENT_SUPPLIED",
+    "crop": "Responsive object-fit only; no generative changes or watermark removal",
+    "pages": [
+      "/",
+      "/projects/cookes-road"
+    ]
+  },
+  "cookes-garden": {
+    "alt": "Rear elevation and garden at Cookes Road",
+    "width": 3360,
+    "height": 2240,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "source": "https://drive.google.com/file/d/1-pdTMXlCTHvyBpR2SlQHsWAWsOXUdo5v/view",
+    "classification": "CLIENT_SUPPLIED",
+    "crop": "Responsive object-fit only; no generative changes or watermark removal",
+    "pages": [
+      "/",
+      "/projects/cookes-road"
+    ]
+  }
+}

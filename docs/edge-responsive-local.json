@@ -1,0 +1,42 @@
+[
+  {
+    "requestedWidth": 320,
+    "client": 305,
+    "h1": 265,
+    "imagesBroken": 0,
+    "inner": 320,
+    "scroll": 305
+  },
+  {
+    "requestedWidth": 390,
+    "client": 375,
+    "h1": 325,
+    "imagesBroken": 0,
+    "inner": 390,
+    "scroll": 375
+  },
+  {
+    "requestedWidth": 768,
+    "client": 753,
+    "h1": 291.375,
+    "imagesBroken": 0,
+    "inner": 768,
+    "scroll": 753
+  },
+  {
+    "requestedWidth": 1024,
+    "client": 1009,
+    "h1": 368.484375,
+    "imagesBroken": 0,
+    "inner": 1024,
+    "scroll": 1009
+  },
+  {
+    "requestedWidth": 1440,
+    "client": 1425,
+    "h1": 505.2265625,
+    "imagesBroken": 0,
+    "inner": 1440,
+    "scroll": 1425
+  }
+]

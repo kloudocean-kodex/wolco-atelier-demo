@@ -1,0 +1,42 @@
+{
+  "observedAt": "2026-10-18T06:23:11.999Z",
+  "created": true,
+  "name": "wolco-atelier-demo",
+  "id": "6018e209-39e8-4269-b9b2-07b26194bfb0",
+  "productionBranch": "main",
+  "subdomain": "wolco-atelier-demo.pages.dev",
+  "domains": [
+    "wolco-atelier-demo.pages.dev"
+  ],
+  "source": {
+    "type": "github",
+    "config": {
+      "owner": "kloudocean-kodex",
+      "owner_id": "298832678",
+      "repo_name": "wolco-atelier-demo",
+      "repo_id": "1424038017",
+      "production_branch": "main",
+      "pr_comments_enabled": false,
+      "deployments_enabled": true,
+      "production_deployments_enabled": true,
+      "preview_deployment_setting": "all",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": [],
+      "path_includes": [
+        "*"
+      ],
+      "path_excludes": []
+    }
+  },
+  "build": {
+    "build_command": "npm run build",
+    "destination_dir": "dist",
+    "root_dir": ""
+  },
+  "matchesRequestedSource": true,
+  "matchesRequestedBuild": true,
+  "deployment": null,
+  "docs": "https://developers.cloudflare.com/api/resources/pages/subresources/projects/methods/create/"
+}

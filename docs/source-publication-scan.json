@@ -1,0 +1,7 @@
+{
+  "text_files_scanned": 34,
+  "credential_pattern_findings": [],
+  "credential_like_files": [],
+  "other_email_occurrences": [],
+  "scope": "Pattern scan of current source and documentation only; not a historical credential or vault audit."
+}

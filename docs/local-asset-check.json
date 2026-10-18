@@ -1,0 +1,153 @@
+{
+  "image_files_decoded": 24,
+  "shared_hash_mismatches": [],
+  "film_file": "public/media/generated-architectural-story.mp4",
+  "film_sha256": "a3810f288882047300542afe6ba4c5397228983b94da7658795676ce8371b191",
+  "film_matches_verified_media": true,
+  "checks": [
+    {
+      "file": "public/brand/wolco-icon.png",
+      "bytes": 25572,
+      "sha256": "a469aa0e4aa2ff39cec13dedbbae5a6d243aa59db05adbcdfece3948e4d66c77",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/brand/wolco-logo.webp",
+      "bytes": 8926,
+      "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-garden-1200.webp",
+      "bytes": 161304,
+      "sha256": "a75cfb46cb6ae18a2f252161da01df97d5cbb0af745960be42b5322b98a5de0d",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-garden-1800.webp",
+      "bytes": 343178,
+      "sha256": "40284af9ea2446f68c1a23d0b12dafa958f8ade8ce3266fe85b72a5e6e976344",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-garden-800.webp",
+      "bytes": 72356,
+      "sha256": "fc54d989923a4928d9805ea71eb194d3691e75e45d41ac337f2150d5d6eebca6",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-kitchen-1200.webp",
+      "bytes": 33438,
+      "sha256": "2fc34f185c9f5e2bf1b4edcc4f818c8867cdfbc7ead9c67a7dde039ffd437e1f",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-kitchen-1800.webp",
+      "bytes": 62206,
+      "sha256": "86637449919273d668a7e83d5eecdddc7a071273cd7fe74c162794d3096abb55",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-kitchen-800.webp",
+      "bytes": 17196,
+      "sha256": "1dee233b9fe650336e77f535b7a6db7e8b0841ff59138d526d804fe2fec82e55",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-living-1200.webp",
+      "bytes": 36466,
+      "sha256": "d2252749824c34f2797f32f0ac42364408483b0016aeb5711d3a5932f0ac0726",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-living-1800.webp",
+      "bytes": 66896,
+      "sha256": "2c63d14df90789efb928607fef99ac375e6b384e21358ab236ff0f0ca490a09d",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/cookes-living-800.webp",
+      "bytes": 18512,
+      "sha256": "265bbcfe9073ab7caabef3a7fc2a2362274dcd0c07fbaaeb986bdb702a6a7bef",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/generated-architectural-story-poster.webp",
+      "bytes": 169856,
+      "sha256": "b1ee456b383efb19714e24d8eda1c495eba53b7f6b8760fc685615daa05b1005",
+      "matches_shared_manifest": null
+    },
+    {
+      "file": "public/media/generated-exterior-dusk-640.webp",
+      "bytes": 69106,
+      "sha256": "8ad58c664900b75bbf43e73da9efca8af0e1aaa6b48fceee0c9b88a561359dde",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-exterior-dusk-960.webp",
+      "bytes": 151180,
+      "sha256": "5f473a9c69a67a9d7640c3b4a3f02bc51ba6e4577d4e89f79520f5767adc0628",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-exterior-dusk.webp",
+      "bytes": 373492,
+      "sha256": "d4bd9e5a5bdc18f2a95a4db3a88e22e26756a43f18278dca76307d7e74cb16e4",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-kitchen-640.webp",
+      "bytes": 46212,
+      "sha256": "091c73d4e2eadfc22907c9870c63a76721c3f0a148ac3ac0baf50b992e1caf78",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-kitchen-960.webp",
+      "bytes": 95944,
+      "sha256": "f36bb2a025ad20562259655bcf10ea93c23f2647855e4f84f5afd70fae306e48",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-kitchen.webp",
+      "bytes": 225132,
+      "sha256": "7bb91115109638698c98547b4bc1f09fd65a7ec0368e50cc547dbb20a9c7e8d1",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-living-640.webp",
+      "bytes": 58018,
+      "sha256": "f2249b4643071ea5babfbf3ab4cf95321922cc818529dcee5b7d2d2cbd933f08",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-living-960.webp",
+      "bytes": 120910,
+      "sha256": "69a8f6feeb7b81890b95d4e71b27974734f16e4e6fc208182fb82c9944a1ec54",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-living.webp",
+      "bytes": 280890,
+      "sha256": "bbee885dff19cc117edce95cf95cad5575ab0a8dc5a194b6d78ed63eef8e6d1e",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-materials-640.webp",
+      "bytes": 65798,
+      "sha256": "8455a8e05cda18f35e36bdcc631db9ddbab3f6e0715169df78dc37f7136bc167",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-materials-960.webp",
+      "bytes": 140262,
+      "sha256": "597ea776283096867793349e3cfe0c2d22b158f53a71c169c3ea06d557626569",
+      "matches_shared_manifest": true
+    },
+    {
+      "file": "public/media/generated-materials.webp",
+      "bytes": 319764,
+      "sha256": "bed5989ca6b33b0761cbccbadf04a085fe503ff403ade85265a230c8bb260a0b",
+      "matches_shared_manifest": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "test": "filter Architecture 01",
+    "count": 1,
+    "status": "Showing 1 study in architecture."
+  },
+  {
+    "test": "filter Interiors 02",
+    "count": 2,
+    "status": "Showing 2 studies in interiors."
+  },
+  {
+    "test": "filter Details 01",
+    "count": 1,
+    "status": "Showing 1 study in details."
+  },
+  {
+    "test": "filter All studies 04",
+    "count": 4,
+    "status": "Showing 4 studies."
+  },
+  {
+    "test": "palette 02 Earth & ember",
+    "selected": [
+      "02 Earth & ember\n              ↗"
+    ],
+    "title": "Earth & ember"
+  },
+  {
+    "test": "palette 03 Oak & shadow",
+    "selected": [
+      "03 Oak & shadow ↗"
+    ],
+    "title": "Oak & shadow"
+  },
+  {
+    "test": "palette 01 Sand & stone",
+    "selected": [
+      "01 Sand & stone\n              ↗"
+    ],
+    "title": "Sand & stone"
+  },
+  {
+    "test": "palette keyboard",
+    "selected": [
+      "02 Earth & ember\n              ↗"
+    ]
+  },
+  {
+    "test": "space Retreat THE QUIETER SIDE",
+    "heading": "A little space.\nJust for you.",
+    "pressed": [
+      "01RetreatTHE QUIETER SIDE"
+    ]
+  },
+  {
+    "test": "space Kitchen THE DAILY RITUAL",
+    "heading": "The heart of\nthe everyday.",
+    "pressed": [
+      "03KitchenTHE DAILY RITUAL"
+    ]
+  },
+  {
+    "test": "space Outside A BREATH OF AIR",
+    "heading": "Let the outside\nbe part of it.",
+    "pressed": [
+      "04OutsideA BREATH OF AIR"
+    ]
+  },
+  {
+    "test": "space Living COME TOGETHER",
+    "heading": "Room for the\nmoments between.",
+    "pressed": [
+      "02LivingCOME TOGETHER"
+    ]
+  },
+  {
+    "test": "save ideas",
+    "brief": "The Arrival×Earth & ember×Living priority×",
+    "count": "1"
+  },
+  {
+    "test": "journey 03 Give the idea a shape.",
+    "open": [
+      "\n              \n                01\n                Begin with your life.\n                \n              \n              \n                \n                  How do you spend your mornings? Who gathers around your table?\n                  Start with routines, priorities and the feeling you want to\n                  come home to.\n                \n                \n                  BRING: YOUR IDEAS, YOUR QUESTIONS, YOUR WISH LIST.\n                \n              \n            ",
+      "\n              \n                02\n                Understand the place.\n                \n              \n              \n                \n                  Your land, its orientation and its surroundings shape the\n                  possibilities. Discuss what is known about the site and what\n                  needs to be investigated before decisions are made.\n                \n                \n                  BRING: A SITE ADDRESS AND ANY PLANS YOU HAVE.\n                \n              \n            ",
+      "\n              \n                03\n                Give the idea a shape.\n                \n              \n              \n                \n                  Explore how spaces connect, where light enters and which views\n                  matter most. A thoughtful brief helps the design conversation\n                  stay connected to your priorities.\n                \n                \n                  CONSIDER: WHAT YOU NEED, AND WHAT YOU CAN LIVE WITHOUT.\n                \n              \n            "
+    ]
+  },
+  {
+    "test": "journey 04 Make the details personal.",
+    "open": [
+      "\n              \n                01\n                Begin with your life.\n                \n              \n              \n                \n                  How do you spend your mornings? Who gathers around your table?\n                  Start with routines, priorities and the feeling you want to\n                  come home to.\n                \n                \n                  BRING: YOUR IDEAS, YOUR QUESTIONS, YOUR WISH LIST.\n                \n              \n            ",
+      "\n              \n                02\n                Understand the place.\n                \n              \n              \n                \n                  Your land, its orientation and its surroundings shape the\n                  possibilities. Discuss what is known about the site and what\n                  needs to be investigated before decisions are made.\n                \n                \n                  BRING: A SITE ADDRESS AND ANY PLANS YOU HAVE.\n                \n              \n            ",
+      "\n              \n                03\n                Give the idea a shape.\n                \n              \n              \n                \n                  Explore how spaces connect, where light enters and which views\n                  matter most. A thoughtful brief helps the design conversation\n                  stay connected to your priorities.\n                \n                \n                  CONSIDER: WHAT YOU NEED, AND WHAT YOU CAN LIVE WITHOUT.\n                \n              \n            ",
+      "\n              \n                04\n                Make the details personal.\n                \n              \n              \n                \n                  Bring materials, colour and texture into the conversation.\n                  Look at samples together and ask how each finish works with\n                  the way you live.\n                \n                \n                  CONSIDER: FEEL, MAINTENANCE, AVAILABILITY AND BUDGET.\n                \n              \n            "
+    ]
+  },
+  {
+    "test": "journey 05 Move forward with clarity.",
+    "open": [
+      "\n              \n                01\n                Begin with your life.\n                \n              \n              \n                \n                  How do you spend your mornings? Who gathers around your table?\n                  Start with routines, priorities and the feeling you want to\n                  come home to.\n                \n                \n                  BRING: YOUR IDEAS, YOUR QUESTIONS, YOUR WISH LIST.\n                \n              \n            ",
+      "\n              \n                02\n                Understand the place.\n                \n              \n              \n                \n                  Your land, its orientation and its surroundings shape the\n                  possibilities. Discuss what is known about the site and what\n                  needs to be investigated before decisions are made.\n                \n                \n                  BRING: A SITE ADDRESS AND ANY PLANS YOU HAVE.\n                \n              \n            ",
+      "\n              \n                03\n                Give the idea a shape.\n                \n              \n              \n                \n                  Explore how spaces connect, where light enters and which views\n                  matter most. A thoughtful brief helps the design conversation\n                  stay connected to your priorities.\n                \n                \n                  CONSIDER: WHAT YOU NEED, AND WHAT YOU CAN LIVE WITHOUT.\n                \n              \n            ",
+      "\n              \n                04\n                Make the details personal.\n                \n              \n              \n                \n                  Bring materials, colour and texture into the conversation.\n                  Look at samples together and ask how each finish works with\n                  the way you live.\n                \n                \n                  CONSIDER: FEEL, MAINTENANCE, AVAILABILITY AND BUDGET.\n                \n              \n            ",
+      "\n              \n                05\n                Move forward with clarity.\n                \n              \n              \n                \n                  Before committing, discuss the scope, documentation,\n                  responsibilities, costs and proposed timing. Your project\n                  needs clear answers that relate to your circumstances.\n                \n                \n                  ASK: WHAT HAPPENS NEXT, AND WHAT IS INCLUDED?\n                \n              \n            "
+    ]
+  },
+  {
+    "test": "faq Are these designs available to build?",
+    "expanded": "Are these designs available to build?\n\nThe Atelier studies are architectural inspiration, rather than a catalogue of approved plans. A real home requires a site-specific discussion, design work and the relevant approvals. Save the qualities you like and use them to explain your brief."
+  },
+  {
+    "test": "faq Can I explore a custom home or knockdown rebuild?",
+    "expanded": "Can I explore a custom home or knockdown rebuild?\n\nYes — choose the relevant interest in your brief. Include the suburb, whether you already own land and anything you know about the existing property. WOLCO can discuss the next steps with you directly."
+  },
+  {
+    "test": "faq Can I get a price or timeline here?",
+    "expanded": "Can I get a price or timeline here?\n\nPricing and timing depend on your site, design, scope and selections. This exploration does not calculate quotes or promise a completion date. Use your brief to start a conversation about what is feasible."
+  },
+  {
+    "test": "faq How does the design brief work?",
+    "expanded": "How does the design brief work?\n\nSave your favourite studies, choose a material palette and note your priorities. Review the resulting brief, download a text copy or open a draft in your email app. Nothing is submitted automatically."
+  },
+  {
+    "test": "faq Which photographs show a real WOLCO project?",
+    "expanded": "Which photographs show a real WOLCO project?\n\nThe Cookes Road photographic story contains supplied project photographs. The other Atelier studies are generated visualisations, identified beside the imagery. They do not depict completed WOLCO homes or confirmed product inclusions."
+  },
+  {
+    "test": "empty brief validation",
+    "dialog": null,
+    "invalid": [
+      "",
+      ""
+    ]
+  },
+  {
+    "test": "brief review",
+    "mailto": "mailto:wolcohomes@gmail.com?subject=My%20WOLCO%20home%20design%20brief&body=WOLCO%20HOMES%20%2F%20MY%20DESIGN%20BRIEF%0A%0AName%3A%20WOLCO%20Demo%20QA%0AEmail%3A%20qa%40example.com%0ASuburb%3A%20Melbourne%0AI%20am%20considering%3A%20A%20custom%20home%0A%0AMY%20COLLECTED%20IDEAS%0ADesign%20studies%3A%20The%20Arrival%0AMaterial%20mood%3A%20Earth%20%26%20ember%0ASpaces%20that%20matter%3A%20Living%0A%0AMY%20VISION%0AA%20light-filled%20home%20with%20an%20open%20kitchen%20and%20a%20quiet%20garden%20outlook.%0A%0APrepared%20in%20the%20WOLCO%20Atelier%20design%20demonstration.%20The%20saved%20studies%20are%20conceptual%20inspiration%2C%20not%20approved%20designs%2C%20inclusions%20or%20quotations.",
+    "open": "brief-dialog",
+    "preview": "WOLCO HOMES / MY DESIGN BRIEF\n\nName: WOLCO Demo QA\nEmail: qa@example.com\nSuburb: Melbourne\nI am considering: A custom home\n\nMY COLLECTED IDEAS\nDesign studies: The Arrival\nMaterial mood: Earth & ember\nSpaces that matter: Living\n\nMY VISION\nA light-filled home with an open kitchen and a quiet garden outlook.\n\nPrepared in the WOLCO Atelier design demonstration. The saved studies are conceptual inspiration, not approved designs, inclusions or quotations."
+  },
+  {
+    "test": "brief native focus containment",
+    "focused": "BODY (prior native focus behaviour; explicit containment follow-up added)",
+    "inDialog": false
+  },
+  {
+    "test": "gallery Explore The Arrival architectural study",
+    "dialog": "study-dialog",
+    "heading": "The Arrival"
+  },
+  {
+    "test": "gallery Explore The Stillness interior study",
+    "dialog": "study-dialog",
+    "heading": "The Stillness"
+  },
+  {
+    "test": "gallery Explore The Gathering kitchen study",
+    "dialog": "study-dialog",
+    "heading": "The Gathering"
+  },
+  {
+    "test": "gallery Explore The Tactile material study",
+    "dialog": "study-dialog",
+    "heading": "The Tactile"
+  },
+  {
+    "test": "project photograph gallery",
+    "body": "ad\n          A photographic look at Cookes Road, drawn from the WOLCO project archive. Open-plan spaces, timber-toned cabinetry and planted outlooks connect the interior to the garden.\n          \n            THINGS TO CONSIDER\n            The connection between kitchen, dining and living.The balance of pale surfaces and warm cabinetry.Views that bring a little of the garden inside.\n          \n          Supplied WOLCO project photography. Image crops preserve the original scenes; no property features have been generated or retouched.\n          Save this idea to my brief +Start with your story ↗",
+    "title": "Cookes Road"
+  },
+  {
+    "test": "film keyboard play",
+    "duration": null,
+    "paused": false,
+    "ready": 0
+  },
+  {
+    "test": "film closes and pauses",
+    "open": null,
+    "paused": false
+  },
+  {
+    "test": "film after close event",
+    "duration": 10,
+    "open": null,
+    "paused": true,
+    "ready": 4
+  },
+  {
+    "test": "privacy information",
+    "text": "×\n\nWOLCO / ATELIER\n\nYour brief. Your choice.\n\nThis is a static design demonstration. Your name, contact details, saved ideas and written brief are held only in the current page while you use it. They are not submitted to a server or saved in browser storage. Reloading or closing the page clears the page state.\n\nDownloading creates a text file on your device. Choosing “Open email draft” asks your email app to compose a message addressed to wolcohomes@gmail.com. You review and send that email your"
+  },
+  {
+    "test": "demo information",
+    "text": "×\n\nWOLCO / ATELIER\n\nAn exploration of home.\n\nAtelier is a design demonstration for WOLCO Homes. It explores a warm, material-led direction through architectural imagery, interactive studies and a personal design brief. It is not a finished production service or a property sales catalogue.\n\nThe Arrival, The Stillness, The Gathering, The Tactile and the architectural film use generated concept imagery. They do not show completed WOLCO projects, actual studio interiors, approved designs, available "
+  },
+  {
+    "test": "mobile menu Escape and focus",
+    "focus": "Open navigation",
+    "open": false
+  },
+  {
+    "test": "explicit brief focus wraps backwards",
+    "focused": "Open email draft ↗",
+    "inDialog": true
+  },
+  {
+    "test": "explicit brief focus wraps forwards",
+    "focused": "Close brief review",
+    "inDialog": true
+  },
+  {
+    "test": "actual generated film native playback",
+    "duration": 10,
+    "paused": true,
+    "ready": 4,
+    "rect": {
+      "height": 292.796875,
+      "width": 366
+    },
+    "time": 10
+  },
+  {
+    "test": "mobile menu explicit focus wrap",
+    "inside": true,
+    "label": "↗Begin a conversation"
+  }
+]

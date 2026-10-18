@@ -1,0 +1,19 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 32
+        }
+      ],
+      "passes": 28,
+      "violations": []
+    }
+  }
+}

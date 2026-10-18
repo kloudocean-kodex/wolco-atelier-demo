@@ -1,0 +1,15 @@
+{
+  "name": "wolco-atelier-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An independent, static WOLCO Homes design demonstration.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

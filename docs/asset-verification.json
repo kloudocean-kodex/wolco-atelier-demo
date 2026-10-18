@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-18",
+  "image_decode": [
+    {
+      "file": "generated-exterior-dusk-640.webp",
+      "size": [
+        640,
+        360
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-exterior-dusk-960.webp",
+      "size": [
+        960,
+        540
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-exterior-dusk.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-kitchen-640.webp",
+      "size": [
+        640,
+        360
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-kitchen-960.webp",
+      "size": [
+        960,
+        540
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-kitchen.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-living-640.webp",
+      "size": [
+        640,
+        360
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-living-960.webp",
+      "size": [
+        960,
+        540
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-living.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-materials-640.webp",
+      "size": [
+        640,
+        360
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-materials-960.webp",
+      "size": [
+        960,
+        540
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-materials.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "ok": true
+    },
+    {
+      "file": "generated-motion-study-poster.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "ok": true
+    },
+    {
+      "file": "wolco-original-logo.webp",
+      "size": [
+        606,
+        286
+      ],
+      "ok": true
+    }
+  ],
+  "logo_pixels_identical": true,
+  "original_brand_hashes": [
+    {
+      "file": "wolco-original-footer.png",
+      "sha256": "da8c6918cd6272b268be5b42d82fd26d1d842b6a53a616b3f663fc488d053b3f"
+    },
+    {
+      "file": "wolco-original-icon.png",
+      "sha256": "a469aa0e4aa2ff39cec13dedbbae5a6d243aa59db05adbcdfece3948e4d66c77"
+    },
+    {
+      "file": "wolco-original-logo.png",
+      "sha256": "5a56efeb61d62b8ea041d167636b8a5ac4a910b9def2e4dfe45e9904d902ea09"
+    },
+    {
+      "file": "wolco-original-logo.webp",
+      "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15"
+    }
+  ],
+  "video": {
+    "file": "generated-motion-study.mp4",
+    "full_decode_ok": true,
+    "duration_seconds": 24.96,
+    "decoded_frames": 599,
+    "has_audio_stream": false,
+    "h264": true,
+    "1600x900": true,
+    "bytes": 9188131,
+    "under_25MiB": true,
+    "sha256": "4f0fcae22d9437b120fd662ebd46dc580f6ef264bf72783f22d5a3d3b4bdc440",
+    "faststart": true
+  },
+  "visual_inspection": {
+    "generated_originals": "All four originals reviewed after generation; coherent warm stone, oak, bronze and garden palette; no people, logos or text.",
+    "film_contact_sheet": "qa/film-contact-sheet.png reviewed: exterior, material detail, kitchen and living frames present; clean crops and consistent colour."
+  }
+}

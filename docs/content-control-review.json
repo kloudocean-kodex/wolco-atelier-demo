@@ -1,0 +1,38 @@
+{
+  "buttons_reviewed": 35,
+  "unmapped": [],
+  "unnamed": [],
+  "select_options": [
+    "Exploring possibilities",
+    "A custom home",
+    "A knockdown rebuild",
+    "Design and material inspiration"
+  ],
+  "generated_image_sizes": [
+    {
+      "id": null,
+      "sizes": "(max-width:760px) 100vw, 50vw"
+    },
+    {
+      "id": null,
+      "sizes": "(max-width:760px) 100vw, 50vw"
+    },
+    {
+      "id": null,
+      "sizes": "(max-width:760px) 100vw, 50vw"
+    },
+    {
+      "id": null,
+      "sizes": "(max-width:760px) 100vw, 50vw"
+    },
+    {
+      "id": "palette-image",
+      "sizes": "(max-width:760px) 100vw, 50vw"
+    },
+    {
+      "id": null,
+      "sizes": "100vw"
+    }
+  ],
+  "external_runtime_sources": []
+}
