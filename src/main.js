@@ -210,7 +210,11 @@ for (const element of $$("[data-image]"))
         ? "(max-width:760px) 100vw, 50vw"
         : "(max-width:760px) 100vw, 60vw"),
   );
-setImage($("#hero-image"), "exterior", "(max-width:760px) 100vw, 53vw");
+setImage(
+  $("#hero-image"),
+  "exterior",
+  "(max-width:760px) max(100vw, 110svh, 720px), max(53vw, 1320px)",
+);
 for (const link of $$("[data-study]"))
   link.href = images[studies[link.dataset.study].image].src;
 

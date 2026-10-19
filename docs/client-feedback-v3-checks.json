@@ -1,0 +1,111 @@
+{
+  "audit": "Atelier client-feedback-v3 static release check",
+  "observedOn": "2026-10-20",
+  "scope": "Local source, generated dist artifact, and media range adapter only. No browser session, Cloudflare deployment, repository push, or production claim was made.",
+  "commands": [
+    {
+      "command": "npm run build",
+      "result": "passed",
+      "evidence": "Generated the exact video-size manifest and scoped route configuration, then built the dependency-free dist artifact."
+    },
+    {
+      "command": "npm run verify",
+      "result": "passed",
+      "evidence": {
+        "localAssetsChecked": 32,
+        "anchorLinksChecked": 23,
+        "uniqueIds": 74,
+        "dialogs": 5,
+        "filmBytes": 5290007,
+        "issues": []
+      }
+    },
+    {
+      "command": "npm run test:video",
+      "result": "passed",
+      "evidence": {
+        "scenarios": 18,
+        "coverage": [
+          "full GET",
+          "HEAD",
+          "byte intervals and suffixes",
+          "unsatisfiable range",
+          "If-Range",
+          "multipart-range fallback",
+          "static bypass"
+        ]
+      }
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed",
+      "evidence": "No whitespace errors reported."
+    }
+  ],
+  "artifactChecks": [
+    {
+      "name": "Header and footer use the transparent original-colour WOLCO logo derivative",
+      "result": "passed",
+      "file": "public/brand/wolco-original-colour-logo-transparent.png",
+      "bytes": 20154,
+      "sha256": "a7d8ce1a28a141b29e2abdadbb602ecbdae031ebfe1562191d81fdb62f41ef9f",
+      "evidence": "The displayed source retains supplied glyph colours and ratio while removing the former white raster matte."
+    },
+    {
+      "name": "Generated dist exists",
+      "result": "passed"
+    },
+    {
+      "name": "Generated dist contains the updated tall-hero sizes expression",
+      "result": "passed",
+      "value": "(max-width:760px) max(100vw, 110svh, 720px), max(53vw, 1320px)"
+    },
+    {
+      "name": "Generated dist footer uses the warm paper token",
+      "result": "passed",
+      "value": "background: var(--paper)"
+    },
+    {
+      "name": "Generated footer does not retain the former #27241f field",
+      "result": "passed"
+    },
+    {
+      "name": "Generated footer logo rule has no panel background declaration",
+      "result": "passed"
+    },
+    {
+      "name": "Current media route manifest is scoped to the sole web film",
+      "result": "passed",
+      "route": "/media/wolco-project-journey-v2.mp4",
+      "bytes": 5290007,
+      "sha256": "660ac641ac7c8c292533118e92186b1b556ef02c9ebfdb4781ae09b43640f3c3"
+    }
+  ],
+  "manifestReview": {
+    "method": "Read existing lib/video-manifest.mjs and public/_routes.json before the normal build regenerated them.",
+    "result": "The existing manifest was already aligned with the current 5,290,007-byte film and one route. The build regenerated the same intended scope; no manual manifest overwrite occurred."
+  },
+  "workingTreeAtCompletion": {
+    "sourceChanges": [
+      "index.html",
+      "src/main.js",
+      "src/style.css"
+    ],
+    "assetChanges": [
+      "public/brand/wolco-original-colour-logo-transparent.png"
+    ],
+    "auditRecords": [
+      "docs/client-feedback-v3-checks.json",
+      "docs/brand-lossless.json",
+      "docs/public-asset-manifest.json",
+      "docs/exclusive-media-local-checks.json",
+      "docs/PROVENANCE.md"
+    ],
+    "commitOrPush": false
+  },
+  "remainingReleaseGates": [
+    "Desktop and mobile browser rendering after the generated dist is served",
+    "Deployed Cloudflare range-request probe against the final published film",
+    "Client approval of content, imagery rights and final brand presentation"
+  ]
+}

@@ -277,7 +277,6 @@ div {
 .brand img {
   width: 119px;
   aspect-ratio: 606/286;
-  mix-blend-mode: multiply;
 }
 .brand-divider {
   width: 1px;
@@ -1482,8 +1481,9 @@ textarea {
 }
 .site-footer {
   padding: 60px var(--page-pad) 24px;
-  background: #27241f;
-  color: #e8e0d3;
+  background: var(--paper);
+  color: var(--ink);
+  border-top: 1px solid var(--line);
 }
 .footer-top {
   display: flex;
@@ -1493,19 +1493,18 @@ textarea {
   padding-bottom: 50px;
 }
 .footer-logo {
-  background: var(--paper);
-  padding: 14px 22px;
+  display: inline-flex;
+  padding: 4px 0;
 }
 .footer-logo > img {
   width: 140px;
-  mix-blend-mode: multiply;
 }
 .footer-top > p {
   font: 40px/1.1 var(--serif);
   letter-spacing: -0.02em;
 }
 .footer-top em {
-  color: #c6ad8f;
+  color: var(--oxblood);
 }
 .back-to-top {
   display: flex;
@@ -1522,10 +1521,10 @@ textarea {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  border-top: 1px solid #655b4c;
+  border-top: 1px solid var(--line);
   padding-top: 23px;
   font-size: 9px;
-  color: #bdb2a2;
+  color: var(--muted);
 }
 .footer-bottom > div {
   display: flex;
@@ -1536,7 +1535,7 @@ textarea {
   padding: 5px 0;
 }
 .footer-bottom button:hover {
-  color: white;
+  color: var(--oxblood);
 }
 .footer-bottom > span {
   font-size: 8px;

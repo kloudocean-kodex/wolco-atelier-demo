@@ -2,7 +2,7 @@
 
 ## Original identity
 
-The local `public/brand/wolco-logo.webp` comes from the prior WOLCO preview's lossless derivative. Its decoded pixels match the original PNG. No artwork has been regenerated, traced, recoloured or cropped. `docs/brand-lossless.json` retains the comparison evidence. The icon is the original supplied WOLCO site icon.
+The local `public/brand/wolco-logo.webp` remains the prior WOLCO preview's lossless derivative and its decoded pixels match the original PNG. The displayed header and footer use `public/brand/wolco-original-colour-logo-transparent.png`: a transparent-background derivative of the supplied colour raster. Only near-white matte pixels were made transparent; its supplied glyph pixels, colours and 606 x 286 ratio were retained. No artwork has been regenerated, traced, redrawn or recoloured. `docs/brand-lossless.json` retains the comparison and display-derivative record. The icon is the original supplied WOLCO site icon.
 
 Original logo source recorded in the prior public-site inventory:
 

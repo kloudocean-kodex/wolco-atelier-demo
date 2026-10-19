@@ -12,5 +12,13 @@
       "bytes": 8926,
       "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15"
     }
-  ]
+  ],
+  "transparentDisplayDerivativeCheckedAt": "2026-10-20",
+  "transparentDisplayDerivative": {
+    "file": "public/brand/wolco-original-colour-logo-transparent.png",
+    "bytes": 20154,
+    "sha256": "a7d8ce1a28a141b29e2abdadbb602ecbdae031ebfe1562191d81fdb62f41ef9f",
+    "source": "wolco-shared-assets/client-feedback-v3/brand/wolco-original-colour-logo-transparent.png",
+    "treatment": "Near-white background pixels from the supplied colour raster were made transparent. The supplied glyph pixels, colours and 606 x 286 ratio were retained; this is not a redraw or recolour."
+  }
 }

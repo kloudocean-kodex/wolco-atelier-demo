@@ -1,5 +1,6 @@
 {
   "observedAt": "2026-10-18T19:24:56.468Z",
+  "addendum": "2026-10-20: transparent colour-logo display derivative added with its independently checked SHA-256; the remaining check record retains its original observation timestamp.",
   "scope": "Local build and static media dependency verification; native browser layout, focus and playback require separate live review.",
   "build": "passed",
   "staticReferences": "passed",
@@ -18,6 +19,11 @@
       "file": "public/brand/wolco-icon.png",
       "bytes": 25572,
       "sha256": "a469aa0e4aa2ff39cec13dedbbae5a6d243aa59db05adbcdfece3948e4d66c77"
+    },
+    {
+      "file": "public/brand/wolco-original-colour-logo-transparent.png",
+      "bytes": 20154,
+      "sha256": "a7d8ce1a28a141b29e2abdadbb602ecbdae031ebfe1562191d81fdb62f41ef9f"
     },
     {
       "file": "public/brand/wolco-logo.webp",
